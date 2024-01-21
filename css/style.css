@@ -1,0 +1,702 @@
+:root{
+    --yellow-color:#FFEE5E;
+    --blue-color:#224BF8;
+    --text-color:#0080FF;
+    --title-color:#01228A;
+    --white-color:#FFFFFF;
+    --grey-color:#858585;
+    --dark--color:#313131;
+    --red-color:#F74121;
+    --bg-color:#F2F7FA;
+    --footer-color:#FBFAFA;
+    --block-color:#F8FAFF;
+    --block2-color:#E5E5E5;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+  
+*,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/* кнопка */
+.default-btn{
+    background-color: var(--yellow-color);
+    padding: 17px 54px;
+    color: var(--dark--color);
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif ;
+
+    
+}
+/* заголовок */
+.title{
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.card__subtitle{
+    color: var(--dark--color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.card__text{
+    color: var(--grey-color);
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.card{
+    width: 338px;
+}
+.card__img{
+    width: 44px;
+    height: 44px;
+}
+
+/* меню */
+.header__container{
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    /* padding-left: 30px; */
+}
+.menu__item{
+    padding-left: 30px;
+    
+}
+.menu__link{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.link-mail{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.link-tel{
+    color: #0073E6;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.link-lang{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* второй блок  */
+.background-blue{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+.container-bg{
+    display: flex;
+    gap: 130px;
+}
+.block-description{
+    width: 604px;
+    padding-top: 182px;
+    
+}
+.color-text{
+    color:var(--yellow-color)
+}
+.block-description__title{
+    color: #fff;
+    margin-bottom:60px ;
+    margin-top: 0;
+}
+.block-text__mail , .block-text__tel{
+    color: #6DA8FF;
+}
+.block-text__mail {
+    padding-bottom: 5px;
+}
+.block-text{
+    padding-top: 189px;
+    width: 487px;
+    display: flex;
+    flex-direction: column;
+}
+.block-text__text{
+    color: #fff;
+    font-size: 18px;
+    line-height: 140%;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.blue-block{
+    margin-top: 78px;
+    background-color: #1D3AD9;
+    padding-top: 48px;
+    padding-left: 65px;
+    width: 706px;
+    /* padding-bottom: 87px; */
+    margin-bottom: 87px;
+}
+.blue-block__title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 110%;
+    color: #fff;
+    width: 380px;
+}
+.blue-block__text{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 0;
+}
+.blue-block-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 49px;
+    
+}
+
+.blue-block__square{
+    
+    padding-right: 8px;
+}
+
+
+.number-block__num{
+    font-size:30px ;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+.number-block__linered{
+    margin-bottom: 28px;
+}
+ .number-block__lineyellow{
+    padding-bottom: 69px;
+ }
+/* третий блок */
+.grey-section{
+    color: #E5E5E5;
+}
+.content-join__title{
+    color: var(--dark--color);
+    margin-top: 15px;
+}
+.content-join__btn{
+    background-color: var(--blue-color);
+    color: #fff;
+
+}
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 145px;
+}
+.content-join__text{
+    padding-bottom: 65px;
+    width: 460px;
+    line-height: 140%;
+}
+/* .content-bluebg{
+    background-color: var(--blue-color);
+    color: #fff;
+    width: 267px;
+    height: 605px;
+    font-size: ;
+} */
+
+/* четвертый блок our-advantages*/
+.our-advantages{
+    color:#F2F7FA;
+}
+
+.title-phrase__text{
+    color: var(--dark--color);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.title-phrase{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+.content-advantages__img{
+    padding-top: 400px;
+}
+.content-advantages{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 54px;
+}
+.content-advantages__title{
+    color: var(--dark--color);
+    margin-top: 199px;
+}
+.flex-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-top: 34px; */
+}
+.card-advantages{
+    padding-top: 34px;
+}
+/* пятый блок our-services */
+.our-services__title{
+    color: var(--dark--color);
+    margin-bottom: 38px;
+}
+.our-services__text{
+    width: 490px;
+}
+.info-block{
+    border: 1px solid #9BCDFD;
+    width: 458px;
+    height: 401px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+.info-block__subtitle, .services-info__subtitle{
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+.info-block__num{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--red-color);
+    font-weight: 600;
+    margin-top : 27px ;
+    margin-bottom: 15px;
+
+}
+.services-info__div:hover .services-info__num  {
+    color: #fff;
+}
+.services-info__div:hover .services-info__title  {
+    color: var(--yellow-color);
+}
+.services-info__div:hover .services-info__subtitle  {
+    color: #fff;
+}
+.info-block__title{
+    color: var(--title-color);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+.services-info{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.container-our-services{
+    padding-bottom: 140px;
+}
+.services-info__div:hover {
+background-color: var(--blue-color);
+}
+
+/* шестой блок electricity  */
+.electricity{
+    background-image: url(../img/bg-business.jpg);
+}
+.electricity-block__title{
+    color: #fff;
+    margin-bottom: 18px;
+}
+.electricity-block__text{
+color: #fff;
+font-size:16px ;
+width: 400px;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 54px;
+}
+.electricity-conainer{
+    display: flex;
+    gap: 84px;
+    /* justify-content: space-between; */
+    padding-top:204px ;
+    padding-bottom: 204px;
+}
+
+
+
+
+/* седьмой блок  */
+.news{
+    background-color: #F8FAFF;
+}
+
+
+/* .block-item__link::before{
+    content:"-";
+    left: -30px;
+    transition: all 200ms ease;
+    position: absolute;
+	top: 11px;
+} */
+/* 
+button:before {
+	font-family: FontAwesome;
+	content:"\f07a";
+	position: absolute;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+} */
+
+/* .block-item__link:hover:before{
+    left: 7px;
+} */
+.block-item__link:hover:before{
+    content:"-";
+   
+}
+.block-item__link{
+    color: var(--grey-color);
+}
+.block-item__link:hover {
+right: 7px;
+color: #0080FF;
+}
+.block-item{
+    display: flex;
+    flex-direction: column;
+}
+.container-news{
+    display: flex;
+    gap: 148px;
+    padding-top: 160px;
+}
+.card-news-text__arrow{
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    color: #0080FF;
+}
+
+.card-news{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card-news-text__date{
+    color: #858585;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-news-text__title{
+    color: var(--dark--color);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-news-text__title{
+    width: 500px;
+    margin-bottom: 15px;
+}
+.card-news-text__text{
+    padding-right: 110px;
+    line-height: 140%;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-news-text{
+    display: flex;
+    flex-direction: column;
+}
+.block-news{
+    padding-bottom: 150px;
+}
+
+/* восьмой блок callback-form-bg */
+.callback-form-bg{
+    background-image: url(../img/callback-form-bg.jpg);
+    padding: 90px 0;
+}
+.callback-block__text{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    width: 410px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.callback-block__title{
+margin-bottom: 35px;
+margin-top: 0;
+color: #fff;
+width: 650px;
+
+}
+.callback-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* padding-top: 90px; */
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+    background-color: #FFFFFF;
+    padding: 66px 50px;
+    /* margin-bottom: 90px; */
+}
+.form-input__input{
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid  #000;
+    
+}
+
+placeholder{
+    color: var(--grey-color);
+    /* padding-bottom: 5px; */
+}
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+input:focus {
+    border-bottom: 1px solid #0080FF;
+}
+.form-input__btn{
+    margin-top: 32px;
+    width: 260px;
+    text-align: center;
+}
+.cheklabel{
+    padding-top: 46px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.select-form{
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: var(--grey-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.select-form:focus{
+    border: 1px solid #0080FF;
+
+}
+.callback-block__img{
+    text-align: end;
+}
+/* footer  */
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 95px;
+}
+.logo-footer__text{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.enrgy-ooo{
+    padding: 35px 0;
+}
+.footer-list__item{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 12px;
+}
+.firs-item{
+    padding-bottom: 18px;
+    color: var(--grey-color);
+}
+.footer-content-contact{
+    display: flex;
+    flex-direction: column;
+}
+.footer-link{
+    padding-bottom: 12px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark--color);
+}
+.footer-mail{
+    font-size: 18px;
+    color: #224BF8;
+    text-align: end;
+}
+.footer-reserved{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.footer-text{
+    font-size: 16px;
+    color: var(--grey-color);
+}
+
+
+
+
+
+.container-advantages{
+    padding-top: 100px;
+}
+@media (1024px <= width <=1200px ){
+.wrapper{
+    max-width: 1000px;
+}
+.blue-block {
+width: 500px;
+}
+.container-bg{
+    gap: 50px;
+}
+.number-block__linered{
+    width: 350px;
+}
+.content-img__img{
+    width: 100%;
+}
+.container-about{
+    gap: 50px;
+}
+.itle-phrase__img{
+    width: 100%;
+}
+
+.content-advantages__img{
+    width: 100%;
+}
+.title {
+    font-size: 42px;
+}
+/* .electricity-conainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+.card-news-text__img{
+    width: 100%;
+}
+.slider__img{
+    width: 100%;
+}
+.container-news{
+    gap: 50px;
+}
+.callback-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+}
+@media (768px <= width <=1024px ){
+    .wrapper{
+        /* max-width: 700px; */
+        /* margin: 0 auto; */
+        /* padding: 0 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .blue-block {
+        width: 480px;
+     }
+    .container-bg{
+        gap: 50px;
+    }
+    .number-block__linered{
+        width: 350px;
+    }
+    .container-about{
+        padding-top: 50px;
+    }
+    .content-img__img{
+        width: 100%;
+    }
+    .content-advantages__img{
+        width: 100%;
+    }
+    .content-advantages{
+
+    }
+    .title-phrase{
+        padding-top: 50px;
+    }
+     .electricity-conainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+/* .container-our-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.services-info{
+    justify-content: center;
+} */
+
+}
